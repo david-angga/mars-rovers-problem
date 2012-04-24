@@ -1,4 +1,5 @@
-including spec test
+1. gem install rspec
+2. rspec robot_spec.rb
 
 =================================================================
 MARS ROVERS PROBLEM
