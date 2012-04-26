@@ -19,9 +19,9 @@ describe Robot do
     robot = Robot.new(5,5)
     
     robot.deploy(1,2,'N')
-    robot.move(%w{L M L M L M L M M}).should eq('1 3 N')
+    robot.move('LMLMLMLMM').should eq('1 3 N')
     
     robot.deploy(3,3,'E')
-    robot.move(%w{M M R M M R M R R M}).should eq('5 1 E')
+    robot.move('MMRMMRMRRM').should eq('5 1 E')
   end
 end

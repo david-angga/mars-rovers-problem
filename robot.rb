@@ -17,7 +17,7 @@ class Robot
   end
   
   def move(commands)
-    commands.each do |command|
+    commands.each_char do |command|
       walk(command)
     end
     
